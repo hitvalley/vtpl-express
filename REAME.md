@@ -7,7 +7,7 @@ ValleyTpl 应用于 Express 的插件
 ## 版本要求
 
 * NodeJS > 8.0
-* ValleyTpl > 1.1.0
+* ValleyTpl > 1.1.1
 * Express > 4.0
 
 ## 使用

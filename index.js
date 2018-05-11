@@ -8,7 +8,7 @@ let defaultConfig = {
 
 function renderFile(tpl, options, callback) {
   let settings = (options || {}).settings;
-  // let extension = settings['view extension'] || settings['view engine'] || defaultConfig.extension;
+  let extension = settings['view engine'] || defaultConfig.extension;
   let encoding = settings['view encoding'] || defaultConfig.encoding;
   let viewPath = settings.views || defaultConfig.viewPath;
   let config = {

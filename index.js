@@ -21,7 +21,7 @@ function renderFile(tpl, options, callback) {
   delete options.__filters;
   // let extensionRegExp = new RegExp(`\.${settings['view engine']}$`, 'i');
   vtpl.prepareTpl(tpl, config).then(tplContent => {
-    let html = vtpl.ValleyTpl(tplContent, options || {}, filters);
+    let html = vtpl(tplContent, options || {}, filters);
     callback(null, html);
   }).catch(err => callback(err));
 }

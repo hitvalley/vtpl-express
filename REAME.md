@@ -1,6 +1,6 @@
 # vtpl-express
 
-当前版本：1.0.2
+当前版本：1.0
 
 ValleyTpl 应用于 Express 的插件
 
@@ -27,3 +27,6 @@ ValleyTpl 应用于 Express 的插件
 	  res.render(tpl, data, filters);
 	});
 
+## 依赖
+
+[valley-tpl](https://github.com/hitvalley/valley-tpl)

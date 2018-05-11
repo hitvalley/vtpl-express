@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/hitvalley/vtpl-express#readme",
   "dependencies": {
-    "valley-tpl": "^1.1.1"
+    "valley-tpl": "^1.1.2"
   }
 }

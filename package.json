@@ -1,6 +1,6 @@
 {
   "name": "vtpl-express",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "valleytpl for express",
   "main": "index.js",
   "scripts": {

@@ -23,6 +23,7 @@ ValleyTpl 应用于 Express 的插件
 	app.set('view extension', 'tpl'); // 设定文件后缀名
 	app.set('view encoding', 'utf-8'); // 设定文件编码格式
 	app.set('view cache', true); // 设定是否使用cache
+
 	app.get('/', function(req, res){
 	  res.render(tpl, data, filters);
 	});

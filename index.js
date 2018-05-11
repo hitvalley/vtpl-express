@@ -28,7 +28,6 @@ function renderFile(tpl, options, callback) {
 
 let __express = renderFile;
 
-export default {
-  __express,
-  renderFile
-};
+module.exports.renderFile = renderFile;
+module.exports.__express = __express;
+
